@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(131, 19, 223);
+  }
+table,td,th{
+    text-align: center;
+    padding: 20px;
+    border: 10px solid rgb(75, 255, 3);
+    /*border-collapse: collapse;*/
+    border-spacing: 50px;
+}
+.cella{
+    background-color: rgb(6, 218, 154);
+    color: rgb(221, 10, 10);
+}
+.cella2{
+    background-color: hotpink;
+    color: lawngreen;
+}
+table{
+    width: 50%;
+}
+td{
+    height: 10%;
+}
+#t1{
+    background-image: url('kepek/wowhatter.jpg');
+}
+#t2{
+    background-image: url('kepek/worgen_druid.jpg');
+}

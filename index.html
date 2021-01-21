@@ -1,0 +1,60 @@
+    <!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Táblázat gyakorlás</title>
+    <link rel="icon" href="kepek/worgen_ikon.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="stilus.css">
+    
+</head>
+<body>
+    <table id="t1">
+        <caption>Első táblázatom</caption>
+        <tr>
+        <th>1. oszlop címe</th>
+        <th>2. oszlop címe</th>
+        <th>3. oszlop címe</th>
+        </tr>
+        <tr>
+            <td class="cella">1. sor 1. elem</td>
+            <td class="cella2">1. sor 2. elem</td>
+            <td class="cella">1. sor 3. elem</td>
+        </tr>
+        <tr>
+            <td class="cella2">2. sor 1. elem</td>
+            <td class="cella">2. sor 2. elem</td>
+            <td class="cella2">2. sor 3. elem</td>
+        </tr>
+        <tr>
+            <td class="cella">3. sor 1. elem</td>
+            <td class="cella2">3. sor 2. elem</td>
+            <td class="cella">3. sor 3. elem</td>
+        </tr>
+    </table>
+<hr>
+    <table id="t2">
+        <caption>Második táblázatom</caption>
+        <tr>
+        <th>1. oszlop címe</th>
+        <th>2. oszlop címe</th>
+        <th>3. oszlop címe</th>
+        </tr>
+        <tr>
+            <td>1. sor 1. elem</td>
+            <td colspan="2">1. sor 2. elem</td>
+            
+        </tr>
+        <tr>
+            <td rowspan="2">2-3. sor 1. elem</td>
+            <td>2. sor 2. elem</td>
+            <td>2. sor 3. elem</td>
+        </tr>
+        <tr>
+            <td>3. sor 2. elem</td>
+            <td>3. sor 3. elem</td>
+            
+        </tr>
+    </table>
+</body>
+</html>
